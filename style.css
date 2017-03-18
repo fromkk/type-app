@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+html, body {
+  margin:0px;
+  padding:0px;
+}
+
+body {
+  font-family: 'Source Code Pro', monospace;
+  color: #333333;
+}
+
+header {
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+footer {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+a img {
+  border:none;
+}
+
+.container, .main {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feature-list {
+  margin:0px;
+  padding:0px;
+}
+
+.feature-list li {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+.feature-list li:before {
+  content: "-";
+  margin-right: 8px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+@media screen and (min-width:1024px) {
+  h1 {
+    font-size: 78px;
+    font-weight: bold;
+    padding:0px;
+    margin:0px;
+  }
+
+  h2 {
+    width:460px;
+    font-size:18px;
+    font-weight: bold;
+    padding:0px;
+    margin:0px;
+    margin-top:16px;
+  }
+
+  .container, .main {
+    width: 768px;
+    position: relative;
+  }
+
+  .screenshot {
+    width: 307px;
+    height: 628px;
+    position: absolute;
+    top:0px;
+    right:0px;
+  }
+
+  .feature-list {
+    width:460px;
+  }
+
+  footer {
+    margin-top: 320px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    padding:0px;
+    margin:0px;
+  }
+
+  h2 {
+    font-size:18px;
+    font-weight: bold;
+    padding:0px;
+    margin:0px;
+    margin-top:16px;
+  }
+
+  .container, .main {
+    width: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+  }
+
+  .screenshot {
+    display: block;
+    width: 307px;
+    height: 628px;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .feature-list li {
+    font-size: 16px;
+  }
+
+  footer {
+    margin-top: 80px;
+  }
+}
