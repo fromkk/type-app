@@ -87,6 +87,14 @@ h3 {
   margin-top:16px;
 }
 
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 20px;
+}
+
 @media screen and (min-width:1024px) {
   .container, .main {
     width: 768px;
